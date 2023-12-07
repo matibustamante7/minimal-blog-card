@@ -1,0 +1,82 @@
+:root {
+    --color-span: #883AE1;
+    --color-cream: #E6D6FC;
+    --color-ice: #E5EAF0;
+    --color-background: #FAFAF9;
+    --color-bg-card: #FFFFFF;
+    --color-txt-h1: #20293A;
+    --color-txt: #6C727F;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Sora', sans-serif;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5rem;
+    margin-top: 120px;
+    /* border: 2px solid red; */
+    background-color: var(--color-background);
+}
+
+.card_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: .8rem;
+    background-color: var(--color-bg-card);
+    border-radius: 12px;
+    box-shadow: 0px 10px 50px 0px var(--color-txt);
+    padding: 1.2rem;
+    width: 350px;
+    height: 400px;
+    max-height: 500px;
+}
+
+.card_cont_img {
+    width: 100%;
+    height: 200px;
+    border-radius: 12px;
+    /* border: 2px solid red; */
+    background-image: url('https://billiken.lat/wp-content/uploads/2021/10/parque-nacional-los-cardones-1-1280x720.jpg');
+    background-size: cover;
+}
+.card_cont_footer{
+    border-top: 1px solid var(--color-ice);
+}
+.card_cont_content h2{
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--color-txt-h1);
+}
+
+.card_cont_content p{
+    font-size: 14px;
+    font-weight: 300;
+    color: var(--color-txt);
+}
+
+.card_cont_footer p{
+    font-size: 12px;
+    color: var(--color-txt);
+}
+
+span{
+    font-size: 10px;
+    padding: 4px 14px;
+    border-radius: 20px;
+    background-color: var(--color-cream);
+    color: var(--color-span);
+    width: fit-content;
+    font-weight: 700;
+}
+/* title=h2
+    body=p
+    smalltext=h3
+    tag=span */
